@@ -16,7 +16,47 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #F9BAC5;
+}
+#aboutAzart {
+  height: 60vh;
+  background-color: #f9bac5;
+}
+#aboutCurse {
+  height: 60vh;
+  background-color: #eeeeee;
+}
+.photo {
+  background-image: url(../img/MacBook\ Pro\ 2.1_macbookpro15_front.jpg);
+  width: 50%;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: absolute;
+  right: 0;
+}
+#advantages {
+  height: 75vh;
+  background-color: #ffffff;
+}
+#photoGalery {
+  height: 75vh;
+  background-color: #eeeeee;
+}
+#mesage {
+  height: 75vh;
+  background-color: #ffffff;
+}
+#contacts {
+  height: 75vh;
+  background-color: #131418;
+}
+#map {
+  height: 30vh;
+  background-color: #eeeeee;
 }
 button {
   border: 2px solid #ffffff;
