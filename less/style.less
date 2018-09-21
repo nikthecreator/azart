@@ -66,11 +66,24 @@ a {
         outline: none;
     }
 }
-.buttons {
-    color: @black;
+.btnBody {
+    width: 25rem;
+    height: 5rem;
+    border: none;
+    border-radius: 5rem;
+    background-color: @black;
+    color: @white;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 1.6rem;
+    transition: all 0.4s;
+    &:hover {
+        cursor: pointer;
+        width: 30rem;
+    }
+    &:focus {
+        outline: none;
+    }
 }
 
 // ==================================================================
@@ -188,8 +201,6 @@ a {
     &-img {
         width: 42%;
         height: 45vh;
-        // background-image: url(../img/hand.png);
-        // background-size: cover;
         display: flex;
         align-items: flex-end;
     }
@@ -242,7 +253,6 @@ a {
     position: absolute;
     right: 0;
     &-img {
-        // background-image: url(../img/mac-ps.png);
         display: flex;
         justify-content: center;
         align-items: flex-end;

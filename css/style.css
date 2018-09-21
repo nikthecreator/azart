@@ -48,11 +48,25 @@ a:hover {
 .btnHead:focus {
   outline: none;
 }
-.buttons {
-  color: #131418;
+.btnBody {
+  width: 25rem;
+  height: 5rem;
+  border: none;
+  border-radius: 5rem;
+  background-color: #131418;
+  color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.btnBody:hover {
+  cursor: pointer;
+  width: 30rem;
+}
+.btnBody:focus {
+  outline: none;
 }
 #head {
   height: 100vh;
