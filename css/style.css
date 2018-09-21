@@ -29,8 +29,7 @@ a:hover {
   font-size: 2.5rem;
   color: #131418;
 }
-.icons-text {
-  text-align: center;
+.body-text {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.8rem;
   color: #131418;
@@ -62,22 +61,15 @@ a:hover {
   height: 60vh;
   background-color: #f9bac5;
 }
-#aboutCurse {
-  height: 60vh;
+#aboutCourse {
+  height: 70vh;
   background-color: #eeeeee;
-}
-.photo {
-  background-image: url(../img/MacBook\ Pro\ 2.1_macbookpro15_front.jpg);
-  width: 50%;
-  height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  position: absolute;
-  right: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 #advantages {
   height: 75vh;
@@ -198,6 +190,50 @@ a:hover {
       -ms-flex-align: center;
           align-items: center;
 }
+.course {
+  width: 50%;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.course-content {
+  width: 80%;
+  height: 50vh;
+  margin-left: 20%;
+}
+.course-content-title {
+  width: 100%;
+  height: 10vh;
+}
+.course-content-text {
+  width: 80%;
+  height: 30vh;
+}
+.course-content-btn {
+  width: 100%;
+  height: 10vh;
+}
+.photo {
+  width: 50%;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: absolute;
+  right: 0;
+}
+.photo-img {
+  background-image: url(../img/mac-ps.png);
+  width: 100%;
+  height: 85%;
+}
 .advantages-title {
   margin-top: 10rem;
   width: 100%;
@@ -267,6 +303,7 @@ a:hover {
           align-items: center;
 }
 .icons-card-text {
+  text-align: center;
   width: 100%;
   height: 10vh;
   margin-top: 2.5rem;
