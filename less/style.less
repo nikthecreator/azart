@@ -79,8 +79,10 @@ a {
     height: 100vh;
 }
 #aboutAzart {
-    height: 70vh;
+    height: 60vh;
     background-color: @pink;
+    display: flex;
+    justify-content: space-between;
 }
 #aboutCourse {
     height: 70vh;
@@ -90,7 +92,7 @@ a {
 }   
 #advantages {
     height: 75vh;
-    background-color: @white;
+    // background-color: @white;
 }
 #photoGalery {
     height: 75vh;
@@ -111,7 +113,6 @@ a {
 
 // ==================================================================
 // Head
-// Nav
 .wrap-nav {
     width: 100%;
     height: 10vh;
@@ -145,7 +146,6 @@ a {
     }
 
 }
-// Content Head
 .wrap-head {
     margin-top: 20rem;
     width: 100%;
@@ -177,6 +177,35 @@ a {
         align-items: center;
     }
 }
+// ==================================================================
+// About Azart 
+.hand {
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    &-img {
+        width: 40%;
+        height: 45vh;
+        background-image: url(../img/hand.png);
+        background-size: cover;
+    }
+}
+.azart {
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    &-content {
+        margin-right: 20%;
+        width: 80%; 
+        height: 45vh;
+        background-color: #fff;
+    }
+}
+
+
 // ==================================================================
 // About Course
 .course {

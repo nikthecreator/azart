@@ -58,8 +58,14 @@ a:hover {
   height: 100vh;
 }
 #aboutAzart {
-  height: 70vh;
+  height: 60vh;
   background-color: #f9bac5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 #aboutCourse {
   height: 70vh;
@@ -73,7 +79,6 @@ a:hover {
 }
 #advantages {
   height: 75vh;
-  background-color: #ffffff;
 }
 #photoGalery {
   height: 75vh;
@@ -189,6 +194,41 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.hand {
+  width: 50%;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.hand-img {
+  width: 40%;
+  height: 45vh;
+  background-image: url(../img/hand.png);
+  background-size: cover;
+}
+.azart {
+  width: 50%;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.azart-content {
+  margin-right: 20%;
+  width: 80%;
+  height: 45vh;
+  background-color: #fff;
 }
 .course {
   width: 50%;
