@@ -105,7 +105,7 @@ a:hover {
           align-items: center;
 }
 .nav {
-  width: 80%;
+  width: 85%;
   height: 5rem;
   margin: auto;
   display: -webkit-box;
@@ -148,7 +148,7 @@ a:hover {
 }
 .head-content {
   margin: auto;
-  width: 80%;
+  width: 85%;
   height: 40vh;
 }
 .head-content-title {
@@ -201,9 +201,9 @@ a:hover {
           align-items: center;
 }
 .course-content {
-  width: 80%;
+  width: 85%;
   height: 50vh;
-  margin-left: 20%;
+  margin-left: 15%;
 }
 .course-content-title {
   width: 100%;
@@ -259,7 +259,7 @@ a:hover {
 }
 .icons {
   margin: auto;
-  width: 80%;
+  width: 85%;
   height: 35vh;
   display: -webkit-box;
   display: -ms-flexbox;
