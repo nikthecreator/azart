@@ -209,10 +209,14 @@ a:hover {
           align-items: flex-end;
 }
 .hand-img {
-  width: 40%;
+  width: 42%;
   height: 45vh;
-  background-image: url(../img/hand.png);
-  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 .azart {
   width: 50%;
@@ -270,7 +274,15 @@ a:hover {
   right: 0;
 }
 .photo-img {
-  background-image: url(../img/mac-ps.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   width: 100%;
   height: 85%;
 }
