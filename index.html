@@ -72,7 +72,7 @@
                             <h3 class="icons-title">Обарудование</h3>                               
                         </div>
                         <div class="icons-card-text">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, laudantium.</p>  
+                            <p class="icons-text">Вы познакомитесь со студийным оборудованием, научитесь самостоятельно с ним работать и даже реализовывать свои идеи в ходе обучения.</p>  
                         </div>
                     </div>
                 
@@ -85,7 +85,7 @@
                             <h3 class="icons-title">Обработка</h3>                               
                         </div>
                         <div class="icons-card-text">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, laudantium.</p>      
+                            <p class="icons-text">Вы познакомитесь со студийным оборудованием, научитесь самостоятельно с ним работать и даже реализовывать свои идеи в ходе обучения.</p>      
                         </div>
                     </div>
                 
@@ -98,7 +98,7 @@
                             <h3 class="icons-title">Образование</h3>                                   
                         </div>
                         <div class="icons-card-text">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, laudantium.</p>      
+                            <p class="icons-text">Вы познакомитесь со студийным оборудованием, научитесь самостоятельно с ним работать и даже реализовывать свои идеи в ходе обучения.</p>      
                         </div>
                     </div>
                 </div>
@@ -117,6 +117,53 @@
         <!-- Map -->
         <div class="container-fluid" id="map">
             <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A81389808af1ba52c76d520a54e722f772586d7dee840d0a13e25577601c0e95c&amp;width=100%25&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="wrap-form">
+                                <div class="form-group">
+                                <!-- Form name -->
+                                    <div class="wrap-input">
+                                        <input type="text" id="name" placeholder="Имя">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                <!-- Form email -->
+                                    <div class="wrap-input">
+                                        <input type="text" id="email" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <!-- Form phone -->
+                                    <div class="wrap-input">
+                                        <input type="text" id="phone" placeholder="Телефон">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                 <!-- Button Submit -->
+                                    <div class="wrap-btn">
+                                        <button type="submit" class="btn-submit"><img src="./img/icons/sent-mail.svg" alt="" width="20px" height="20px"></button>
+                                    </div>
+                                 </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
 

@@ -40,6 +40,12 @@ a {
     font-size: 2.5rem;
     color: @black;
 }
+.icons-text {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    color: @black;
+}
 
 // ==================================================================
 // Buttons
@@ -222,5 +228,90 @@ a {
             justify-content: center;
             align-items: center;
         }
+        &-text {
+            width: 100%;
+            height: 10vh;
+            margin-top: 2.5rem;
+        }
+    }
+}
+
+// ==================================================================
+// Modal
+// Modal
+.close:focus {
+    outline: none;
+}
+.modal-dialog {
+    margin-top: 10rem;
+    border: none;
+}
+.modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Form
+.wrap-form {
+    width: 90%;
+}
+.form-group {
+    margin-top: 2rem;
+    width: 100%;
+}
+.wrap-input {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+}
+form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    width: 85%;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid @black;
+    transition: all 0.5s;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    &:focus {
+        border-color: @input-focus;
+        outline: none;
+        width: 100%;
+    }
+}
+.wrap-btn {
+    margin: auto;
+    width: 85%;
+    height: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.btn-submit {
+    width: 35%;
+    height: 3rem;
+    border: none;
+    border-radius: 100rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    background-color: @black;
+    &:hover {
+        width: 100%;
+        cursor: pointer;
+        background-color: @black;
+        color: @black;
+    }
+    &:focus {
+        outline: none;
     }
 }
