@@ -15,15 +15,6 @@ a:hover {
   margin: 0;
   padding: 0;
 }
-#exampleModalLong {
-  font-size: rem;
-}
-.modal-title {
-  font-size: 2rem;
-}
-.close {
-  font-size: 2rem;
-}
 .head-title {
   font-family: 'Arimo', sans-serif;
   font-size: 3rem;
@@ -108,7 +99,7 @@ a:hover {
   background-color: #eeeeee;
 }
 #mesage {
-  height: 75vh;
+  height: 40vh;
   background-color: #ffffff;
 }
 #contacts {
@@ -446,6 +437,9 @@ a:hover {
 }
 .modal-header {
   padding: 2rem;
+}
+.modal-title {
+  font-size: 2rem;
 }
 .wrap-form {
   width: 90%;
