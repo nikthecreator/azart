@@ -16,6 +16,16 @@ a {
     padding: 0;
 }
 
+
+#exampleModalLong{
+    font-size: rem;
+}
+.modal-title {
+    font-size: 2rem;
+}
+.close {
+    font-size: 2rem;
+}
 // ==================================================================
 // Colors
 @black: #131418;
@@ -316,17 +326,22 @@ a {
 // ==================================================================
 // Modal
 // Modal
-.close:focus {
-    outline: none;
+.close {
+    font-size: 3rem;
+    &:focus {
+        outline: none;
+    }
 }
 .modal-dialog {
     margin-top: 10rem;
     border: none;
 }
 .modal-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 1.6rem;
+    padding: 2rem;
+}
+.modal-header {
+    padding: 2rem;
 }
 
 // Form
