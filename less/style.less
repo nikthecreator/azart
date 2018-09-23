@@ -87,6 +87,8 @@ a {
     }
 }
 
+
+ 
 // ==================================================================
 // Components
 #head {
@@ -106,11 +108,14 @@ a {
 }   
 #advantages {
     height: 75vh;
-    // background-color: @white;
+    background-color: @white;
 }
-#photoGalery {
-    height: 75vh;
+#photogalery {
+    height: 85vh;
     background-color: @light;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #mesage {
     height: 40vh;
@@ -282,7 +287,8 @@ a {
         width: 100%;
         height: 85%;
     }
-} 
+}
+
 // ==================================================================
 // Advantages
 .advantages-title {
@@ -334,6 +340,31 @@ a {
             margin-top: 2.5rem;
         }
     }
+}
+
+// ==================================================================
+//Photogalery 
+.photogalery {
+    margin: auto;
+    width: 85%;
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.paper {
+    width: 35%;
+    height: 100%;
+}
+.slider {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;    
+}
+.fotorama {
+    width: 80%;
 }
 
 // ==================================================================
