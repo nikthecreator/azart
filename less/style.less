@@ -86,8 +86,32 @@ a {
         outline: none;
     }
 }
-
-
+.azart-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 5rem;
+    border: none;
+    border-radius: 5rem;
+    background-color: @black;
+    color: @white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    transition: all 0.4s;
+    &:hover {
+        cursor: pointer;
+        width: 30rem;
+        color: @white;
+        text-decoration: none;
+    }
+    &:focus {
+        outline: none;
+        color: @white;
+        text-decoration: none;
+    }
+}
  
 // ==================================================================
 // Components

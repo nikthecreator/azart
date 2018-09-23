@@ -68,6 +68,39 @@ a:hover {
 .btnBody:focus {
   outline: none;
 }
+.azart-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25rem;
+  height: 5rem;
+  border: none;
+  border-radius: 5rem;
+  background-color: #131418;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.azart-btn:hover {
+  cursor: pointer;
+  width: 30rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+.azart-btn:focus {
+  outline: none;
+  color: #ffffff;
+  text-decoration: none;
+}
 #head {
   height: 100vh;
 }
