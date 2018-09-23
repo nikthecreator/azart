@@ -37,13 +37,19 @@ a:hover {
 .btnHead {
   width: 25rem;
   height: 5rem;
-  border: 1px solid #131418;
+  border: none;
   border-radius: 5rem;
-  background-color: transparent;
+  background-color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 .btnHead:hover {
   cursor: pointer;
   background-color: #ffffff;
+  width: 30rem;
 }
 .btnHead:focus {
   outline: none;
@@ -101,8 +107,17 @@ a:hover {
   color: #ffffff;
   text-decoration: none;
 }
+.btnContact {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
 #head {
   height: 100vh;
+  background-image: url(../img/bg4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #aboutAzart {
   height: 60vh;
@@ -188,7 +203,7 @@ a:hover {
   width: 15rem;
   height: 4rem;
   background-color: transparent;
-  border: 1px solid #131418;
+  border: 2px solid #ffffff;
   border-radius: 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -199,9 +214,14 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #ffffff;
 }
 .nav-btnContact:hover {
   cursor: pointer;
+  color: #ffffff;
 }
 .wrap-head {
   margin-top: 20rem;

@@ -56,12 +56,17 @@ a {
 .btnHead {
     width: 25rem;
     height: 5rem;
-    border: 1px solid @black;
+    border: none;
     border-radius: 5rem;
-    background-color: transparent;
+    background-color: @white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    transition: all 0.4s;
     &:hover {
         cursor: pointer;
         background-color: @white;
+        width: 30rem;
     }
     &:focus {
         outline: none;
@@ -112,11 +117,21 @@ a {
         text-decoration: none;
     }
 }
+.btnContact {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: @white;
+}
  
 // ==================================================================
 // Components
 #head {
     height: 100vh;
+    background-image: url(../img/bg4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 #aboutAzart {
     height: 60vh;
@@ -178,13 +193,18 @@ a {
         width: 15rem;
         height: 4rem;
         background-color: transparent;
-        border: 1px solid @black;
+        border: 2px solid @white;
         border-radius: 4rem;
         display: flex;
         justify-content: center;
         align-items: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1.6rem;
+        color: @white;
         &:hover {
             cursor: pointer;
+            color: @white;
         }
     }
 
