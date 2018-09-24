@@ -156,10 +156,6 @@ a {
     justify-content: center;
     align-items: center;
 }
-#mesage {
-    height: 40vh;
-    background-color: @white;
-}
 #contacts {
     height: 75vh;
     background-color: @black;
@@ -271,8 +267,6 @@ a {
             height: 10vh;
         }
         &-text {
-            display: flex;
-            align-items: center;
             width: 100%;
             height: 25vh;
         }
@@ -399,9 +393,21 @@ a {
 .paper {
     width: 35%;
     height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    &-img {
+        width: 100%;
+        height: 77%;
+        &-text {
+            margin-top: 5rem;
+            width: 90%;
+
+        }
+    }
 }
 .slider {
-    width: 65%;
+    width: 70%;
     height: 100%;
     display: flex;
     justify-content: flex-end;
@@ -410,6 +416,10 @@ a {
 .fotorama {
     width: 80%;
 }
+
+// ==================================================================
+// Contacts
+
 
 // ==================================================================
 // Modal
@@ -431,6 +441,10 @@ a {
 .modal-header {
     padding: 2rem;
 }
+.modal-footer {
+    font-size: 2rem;
+    padding: 5rem;
+}
 .modal-title {
     font-size: 2rem;
 }
@@ -445,7 +459,7 @@ a {
 }
 .wrap-input {
     width: 100%;
-    height: 2rem;
+    height: 4rem;
     display: flex;
     justify-content: center;
 }
@@ -460,9 +474,9 @@ input {
     width: 85%;
     height: 2rem;
     border: none;
-    border-bottom: 1px solid @black;
+    border-bottom: 1px solid #999999;
     transition: all 0.5s;
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
     &:focus {
         border-color: @input-focus;
@@ -473,14 +487,15 @@ input {
 .wrap-btn {
     margin: auto;
     width: 85%;
-    height: 4rem;
+    height: 5rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 .btn-submit {
+    font-size: 1.8rem;
     width: 35%;
-    height: 3rem;
+    height: 5rem;
     border: none;
     border-radius: 100rem;
     display: flex;
