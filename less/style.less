@@ -35,6 +35,11 @@ a {
     font-family: 'Arimo', sans-serif;
     font-size: 3rem;
     color: @black;
+    &-contacts {
+        font-family: 'Arimo', sans-serif;
+        font-size: 3rem;
+        color: @white;
+    }
 }
 .icons-title {
     font-family: 'Arimo', sans-serif;
@@ -46,7 +51,21 @@ a {
     font-size: 1.8rem;
     color: @black;
 }
-
+.contact-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    color: @pink;
+    &-link {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.6rem;
+        text-decoration: none;
+        color: @pink;
+        &:hover {
+            color: @light;
+            text-decoration: underline ;
+        }
+    }
+}
 // Mixins
 // ==================================================================
 
@@ -419,8 +438,49 @@ a {
 
 // ==================================================================
 // Contacts
-
-
+.contacts-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+}
+.contact {
+    margin: auto;
+    width: 50%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    &-colomn {
+        width: 50%;
+        height: 30vh;
+        &-items {
+            width: 100%;
+            height: 6vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+}
+.item-icon {
+    width: 15%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-text {
+    margin-top: 0.7rem;
+    width: 85%;
+    height: 6rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.item-img {
+    width: 2.5rem;
+}
 // ==================================================================
 // Modal
 // Modal
@@ -435,7 +495,7 @@ a {
     border: none;
 }
 .modal-body {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     padding: 2rem;
 }
 .modal-header {
