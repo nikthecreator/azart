@@ -459,7 +459,6 @@ a:hover {
 .icons-card {
   width: 25%;
   height: 35vh;
-  background-color: #fff;
 }
 .icons-card-img {
   width: 100%;
@@ -514,17 +513,14 @@ a:hover {
 .paper-content-img {
   width: 100%;
   height: 35vh;
-  background-color: #131418;
 }
 .paper-content-text {
   width: 100%;
-  height: 25vh;
-  background-color: #ffa726;
+  height: 20vh;
 }
 .paper-content-btn {
   width: 100%;
-  height: 5vh;
-  background-color: #fff;
+  height: 10vh;
 }
 .slider {
   width: 70%;
