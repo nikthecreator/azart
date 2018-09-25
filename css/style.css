@@ -1,5 +1,6 @@
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -17,7 +18,15 @@ a:hover {
 }
 .head-title {
   font-family: 'Arimo', sans-serif;
-  font-size: 3rem;
+  font-size: 4rem;
+  color: #ffffff;
+  letter-spacing: 0.5rem;
+}
+.head-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #ffffff;
 }
 .body-title {
   font-family: 'Arimo', sans-serif;
@@ -61,7 +70,7 @@ a:hover {
   border-radius: 5rem;
   background-color: #ffffff;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.6rem;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
@@ -148,9 +157,27 @@ a:hover {
   text-decoration: none;
 }
 .btnContact {
+  width: 15rem;
+  height: 4rem;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
+  color: #ffffff;
+}
+.btnContact:hover {
+  cursor: pointer;
   color: #ffffff;
 }
 #head {
@@ -233,30 +260,6 @@ a:hover {
 .nav-logo {
   width: 4rem;
   height: 4rem;
-}
-.nav-btnContact {
-  width: 15rem;
-  height: 4rem;
-  background-color: transparent;
-  border: 2px solid #ffffff;
-  border-radius: 4rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 1.6rem;
-  color: #ffffff;
-}
-.nav-btnContact:hover {
-  cursor: pointer;
-  color: #ffffff;
 }
 .wrap-head {
   margin-top: 20rem;

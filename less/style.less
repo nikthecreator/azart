@@ -1,5 +1,6 @@
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 body {
     margin: 0;
@@ -29,7 +30,15 @@ a {
 // Font/Text 
 .head-title {
     font-family: 'Arimo', sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
+    color: @white;
+    letter-spacing: 0.5rem;
+}
+.head-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: @white;
 }
 .body-title {
     font-family: 'Arimo', sans-serif;
@@ -79,7 +88,7 @@ a {
     border-radius: 5rem;
     background-color: @white;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1.6rem;
     transition: all 0.4s;
     &:hover {
@@ -156,10 +165,22 @@ a {
     }
 }
 .btnContact {
+    width: 15rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 2px solid @white;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 1.6rem;
     color: @white;
+    &:hover {
+        cursor: pointer;
+        color: @white;
+    }
 }
  
 // ==================================================================
@@ -223,24 +244,7 @@ a {
         width: 4rem;
         height: 4rem;
     }
-    &-btnContact {
-        width: 15rem;
-        height: 4rem;
-        background-color: transparent;
-        border: 2px solid @white;
-        border-radius: 4rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 400;
-        font-size: 1.6rem;
-        color: @white;
-        &:hover {
-            cursor: pointer;
-            color: @white;
-        }
-    }
+    
 
 }
 .wrap-head {
