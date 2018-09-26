@@ -609,11 +609,67 @@ input {
 
 // ==================================================================
 // Media
+@media screen and (min-width: 1200px) {
+    #aboutCourse {
+        height: 75vh;
+        background-color: @light;
+        display: flex;
+        justify-content: space-between;
+    }   
+    #advantages {
+        height: 75vh;
+        background-color: @white;
+    }
+    #photogalery {
+        height: 85vh;
+        background-color: @light;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #contacts {
+        height: 65vh;
+        background-color: @black;
+    }
+    #map {
+        height: 30rem;
+        background-color: @light;
+    }
+    .course {
+        height: 75vh;
+        &-content {
+            width: 85%;
+            height: 50vh;
+            margin-left: 15%;
+            &-title {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                height: 10vh;
+            }
+            &-text {
+                display: flex;
+                align-items: center;
+                width: 80%;
+                height: 30vh;
+            }
+            &-btn {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                height: 10vh;  
+            }
+        }
+    }
+    .photo {
+        height: 75vh;
+    }
+}
 
 @media screen and (max-width: 1199px) {
     #aboutCourse {
         height: 75vh;
-        background-color: @light;
+        background-color: @black;
         display: flex;
         justify-content: space-between;
     }   
