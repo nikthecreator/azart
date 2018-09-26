@@ -190,7 +190,6 @@ a {
     // background-image: url(../img/bg7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 #aboutAzart {
     height: 60vh;
@@ -244,8 +243,6 @@ a {
         width: 4rem;
         height: 4rem;
     }
-    
-
 }
 .wrap-head {
     margin-top: 20rem;
@@ -613,8 +610,61 @@ input {
 // ==================================================================
 // Media
 
-@media screen and (max-width: 1050px) {
+@media screen and (min-width: 1200px) {
+    #aboutCourse {
+        height: 75vh;
+        background-color: @light;
+        display: flex;
+        justify-content: space-between;
+    }   
+    #advantages {
+        height: 75vh;
+        background-color: @white;
+    }
     #photogalery {
-        background: #000;
+        height: 85vh;
+        background-color: @light;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #contacts {
+        height: 65vh;
+        background-color: @black;
+    }
+    #map {
+        height: 30rem;
+        background-color: @light;
+    }
+    .course {
+        margin-top: -5rem;
+        height: 85vh;
+        
+        &-content {
+            width: 85%;
+            height: 70vh;
+            margin-left: 15%;
+            &-title {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                height: 15vh;
+            }
+            &-text {
+                display: flex;
+                align-items: center;
+                width: 80%;
+                height: 40vh;
+            }
+            &-btn {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                height: 15vh;  
+            }
+        }
+    }
+    .photo {
+        height: 75vh;
     }
 }

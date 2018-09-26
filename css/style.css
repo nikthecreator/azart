@@ -760,8 +760,82 @@ input:focus {
 .btn-submit:focus {
   outline: none;
 }
-@media screen and (max-width: 1050px) {
+@media screen and (min-width: 1200px) {
+  #aboutCourse {
+    height: 75vh;
+    background-color: #eeeeee;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #advantages {
+    height: 75vh;
+    background-color: #ffffff;
+  }
   #photogalery {
-    background: #000;
+    height: 85vh;
+    background-color: #eeeeee;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #contacts {
+    height: 65vh;
+    background-color: #131418;
+  }
+  #map {
+    height: 30rem;
+    background-color: #eeeeee;
+  }
+  .course {
+    margin-top: -5rem;
+    height: 85vh;
+  }
+  .course-content {
+    width: 85%;
+    height: 70vh;
+    margin-left: 15%;
+  }
+  .course-content-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 15vh;
+  }
+  .course-content-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80%;
+    height: 40vh;
+  }
+  .course-content-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 15vh;
+  }
+  .photo {
+    height: 75vh;
   }
 }
