@@ -846,7 +846,7 @@ input:focus {
 @media screen and (max-width: 1199px) {
   #aboutCourse {
     height: 75vh;
-    background-color: #131418;
+    background-color: #eeeeee;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -880,7 +880,7 @@ input:focus {
     background-color: #eeeeee;
   }
   .course {
-    margin-top: -5rem;
+    margin-top: 5rem;
     height: 85vh;
   }
   .course-content {
@@ -896,7 +896,7 @@ input:focus {
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
-    height: 15vh;
+    height: 5vh;
   }
   .course-content-text {
     display: -webkit-box;
@@ -916,7 +916,7 @@ input:focus {
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
-    height: 15vh;
+    height: 5vh;
   }
   .photo {
     height: 75vh;
@@ -924,12 +924,6 @@ input:focus {
   #photogalery {
     height: 70vh;
     background-color: #eeeeee;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1013,5 +1007,177 @@ input:focus {
   }
   .item-img {
     width: 2.5rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .head-title {
+    font-family: 'Arimo', sans-serif;
+    font-size: 3.5rem;
+    color: #ffffff;
+    letter-spacing: 0.5rem;
+  }
+  .head-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  #aboutAzart {
+    height: 100vh;
+    background-color: #f9bac5;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .hand {
+    width: 100%;
+    height: 60vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .hand-img {
+    width: 42%;
+    height: 45vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .azart {
+    width: 100%;
+    height: 60vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .azart-content {
+    width: 50%;
+    height: 45vh;
+    margin: auto;
+  }
+  .azart-content-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 10vh;
+  }
+  .azart-content-text {
+    width: 100%;
+    height: 25vh;
+  }
+  .azart-content-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 10vh;
+  }
+  #aboutCourse {
+    height: 100vh;
+    background-color: #eeeeee;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .course {
+    width: 100%;
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .course-content {
+    width: 100%;
+    height: 50vh;
+  }
+  .course-content-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 10vh;
+  }
+  .course-content-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80%;
+    height: 30vh;
+  }
+  .course-content-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 10vh;
+  }
+  .photo {
+    margin-top: 70vh;
+    width: 100%;
+    height: 30vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .photo-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    width: 85%;
+    height: 85%;
   }
 }
