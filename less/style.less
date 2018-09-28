@@ -632,7 +632,7 @@ input {
     }
     .contact {
         margin: auto;
-        width: 40%;
+        width: 60%;
         height: 30vh;
         display: flex;
         justify-content: space-between;
@@ -697,6 +697,26 @@ input {
     // About curse
 
     // Advantages
+
+    // Contacts
+    .contact {
+        margin: auto;
+        width: 80%;
+        height: 30vh;
+        display: flex;
+        justify-content: space-between;
+        &-colomn {
+            width: 50%;
+            height: 30vh;
+            &-items {
+                width: 80%;
+                height: 6vh;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+        }
+    }
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -903,7 +923,59 @@ input {
         justify-content: center;
         align-items: flex-start;
     }
- }
+
+    // Contact
+    #contacts {
+        height: 100vh;
+        background-color: @black;
+    }
+    .contacts-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 20vh;
+    }
+    .contact {
+        margin: auto;
+        width: 100%;
+        height: 30vh;
+        flex-direction: column;
+        &-colomn {
+            margin: auto;
+            margin-bottom: 5rem;
+            width: 80%;
+            height: 30vh;
+            &-items {
+                width: 80%;
+                height: 6vh;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+        }
+    }
+    .item-icon {
+        width: 15%;
+        height: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .item-text {
+        margin-left: 2rem;
+        margin-top: 0.7rem;
+        width: 85%;
+        height: 6rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .item-img {
+        width: 2.5rem;
+    }
+
+}
 
  // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
@@ -1120,7 +1192,7 @@ input {
 
     // Photogalery
     #photogalery {
-        height: 140vh;
+        height: 150vh;
         background-color: @light;
         display: flex;
         justify-content: center;
@@ -1167,6 +1239,73 @@ input {
         display: flex;
         justify-content: center;
         align-items: flex-start;
+    }
+
+    // Contact
+    #contacts {
+        height: 100vh;
+        background-color: @black;
+    }
+    .contacts-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 20vh;
+    }
+    .contact {
+        margin: auto;
+        width: 100%;
+        height: 30vh;
+        flex-direction: column;
+        &-colomn {
+            margin: auto;
+            margin-bottom: 5rem;
+            width: 90%;
+            height: 30vh;
+            &-items {
+                width: 80%;
+                height: 6vh;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+        }
+    }
+    .item-icon {
+        width: 15%;
+        height: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .item-text {
+        margin-left: 2rem;
+        margin-top: 0.7rem;
+        width: 85%;
+        height: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .item-img {
+        width: 2rem;
+    }
+
+    .contact-text {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.4rem;
+        color: @pink;
+        &-link {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.4rem;
+            text-decoration: none;
+            color: @pink;
+            &:hover {
+                color: @light;
+                text-decoration: underline ;
+            }
+        }
     }
     
 }
