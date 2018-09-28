@@ -611,205 +611,21 @@ input {
 
 // ==================================================================
 // Media
-@media screen and (min-width: 1200px) {
-    #aboutCourse {
-        height: 75vh;
-        background-color: @light;
-        display: flex;
-        justify-content: space-between;
-    }   
-    #advantages {
-        height: 75vh;
-        background-color: @white;
-    }
-    #photogalery {
-        height: 85vh;
-        background-color: @light;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #contacts {
-        height: 65vh;
-        background-color: @black;
-    }
-    #map {
-        height: 30rem;
-        background-color: @light;
-    }
-    .course {
-        height: 75vh;
-        margin-top: 5rem;
-        &-content {
-            width: 85%;
-            height: 50vh;
-            margin-left: 15%;
-            &-title {
-                display: flex;
-                align-items: center;
-                width: 100%;
-                height: 5vh;
-            }
-            &-text {
-                display: flex;
-                align-items: center;
-                width: 80%;
-                height: 30vh;
-            }
-            &-btn {
-                display: flex;
-                align-items: center;
-                width: 100%;
-                height: 5vh;  
-            }
-        }
-    }
-    .photo {
-        height: 75vh;
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    // About Azart
+    .down {
+        margin-top: 25vh;
     }
 }
 
-@media screen and (max-width: 1199px) {
-    #aboutCourse {
-        height: 75vh;
-        background-color: @light;
-        display: flex;
-        justify-content: space-between;
-    }   
-    #advantages {
-        height: 75vh;
-        background-color: @white;
-    }
-    #photogalery {
-        height: 85vh;
-        background-color: @light;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #contacts {
-        height: 65vh;
-        background-color: @black;
-    }
-    #map {
-        height: 30rem;
-        background-color: @light;
-    }
-    .course {
-        margin-top: 5rem;
-        height: 85vh;
-        
-        &-content {
-            width: 85%;
-            height: 70vh;
-            margin-left: 15%;
-            &-title {
-                display: flex;
-                align-items: center;
-                width: 100%;
-                height: 5vh;
-            }
-            &-text {
-                display: flex;
-                align-items: center;
-                width: 80%;
-                height: 40vh;
-            }
-            &-btn {
-                display: flex;
-                align-items: center;
-                width: 100%;
-                height: 5vh;  
-            }
-        }
-        .contact {
-            width: 70%;
-            height: 30vh;
-            display: flex;
-            justify-content: space-between;
-            &-colomn {
-                width: 100%;
-                height: 30vh;
-                &-items {
-                    width: 80%;
-                    height: 6vh;
-                    display: flex;
-                    justify-content: space-around;
-                    align-items: center;
-                }
-            }
-        }
-    }
-    .photo {
-        height: 75vh;
-    }
-    #photogalery {
-        height: 70vh;
-        background-color: @light;
-        align-items: center;
-    }
-    .paper {
-        width: 30%;
-        height: 100%;
-        &-content {
-            width: 100%;
-            height: 65vh;
-            &-img {
-                width: 100%;
-                height: 25vh;
-            }
-            &-text {
-                width: 100%;
-                height: 20vh;
-                display: flex;
-            }
-            &-btn {
-                width: 100%;
-                height: 10vh;
-            }
-        }
-    }
-    .contact {
-        width: 70%;
-        height: 30vh;
-        display: flex;
-        justify-content: space-between;
-        &-colomn {
-            width: 100%;
-            height: 30vh;
-            &-items {
-                width: 80%;
-                height: 6vh;
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-            }
-        }
-    }
-    .item-icon {
-        width: 15%;
-        height: 6rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .item-text {
-        margin-left: 2rem;
-        margin-top: 0.7rem;
-        width: 85%;
-        height: 6rem;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    .item-img {
-        width: 2.5rem;
-    }
-}
-@media screen and (max-width: 767px) {
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    // Head
     .head-title {
         font-family: 'Arimo', sans-serif;
-        font-size: 3.5rem;
+        font-size: 3rem;
         color: @white;
         letter-spacing: 0.5rem;
     }
@@ -819,23 +635,35 @@ input {
         font-weight: 400;
         color: @white;
     }
+    .down {
+        margin-top: 25vh;
+    }
+    // About Azart
+    #aboutAzart {
+        height: 60vh;
+        background-color: @pink;
+        display: flex;
+        justify-content: space-between;
+    }
+    // About curse
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+    // Head
+    .down {
+        margin-top: 15vh;
+    }
+
+    // About Azart
     #aboutAzart {
         height: 100vh;
         background-color: @pink;
+        display: flex;
         flex-direction: column-reverse;
     }
     .hand {
         width: 100%;
-        height: 60vh;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        &-img {
-            width: 42%;
-            height: 45vh;
-            display: flex;
-            align-items: flex-end;
-        }
     }
     .azart {
         width: 100%;
@@ -843,9 +671,9 @@ input {
         display: flex;
         align-items: center;
         &-content {
-            width: 50%; 
-            height: 45vh;
             margin: auto;
+            width: 80%; 
+            height: 45vh;
             &-title {
                 display: flex;
                 justify-content: center;
@@ -855,7 +683,7 @@ input {
             }
             &-text {
                 width: 100%;
-                height: 25vh;
+                height: 20vh;
             }
             &-btn {
                 display: flex;
@@ -866,114 +694,225 @@ input {
             }
         }
     }
+
+    // About Curse
+
     #aboutCourse {
-        height: 100vh;
+        height: 110vh;
         background-color: @light;
         flex-direction: column;
-    }
+    } 
+
     .course {
         width: 100%;
-        height: 50vh;
+        height: 70vh;
         display: flex;
         align-items: center;
         &-content {
-            width: 100%;
-            height: 50vh;
+            width: 85%;
+            height: 60vh;
+            margin-left: 15%;
             &-title {
                 display: flex;
-                justify-content: center;
                 align-items: center;
                 width: 100%;
-                height: 10vh;
+                height: 12vh;
+                margin-bottom: 2rem;
             }
             &-text {
                 display: flex;
                 align-items: center;
                 width: 80%;
                 height: 30vh;
+                margin-bottom: 2rem;
             }
             &-btn {
                 display: flex;
                 align-items: center;
                 width: 100%;
-                height: 10vh;  
+                height: 15vh;  
             }
         }
     }
     .photo {
-        margin-top: 70vh;
         width: 100%;
-        height: 30vh;
+        height: 110vh;
         display: flex;
-        justify-content: flex-end;
         align-items: flex-end;
+        position: absolute;
+        right: 0;
         &-img {
             display: flex;
-            justify-content: flex-end;
+            justify-content: center;
             align-items: flex-end;
-            width: 85%;
+            width: 100%;
             height: 85%;
         }
     }
+
+ }
+
+ // Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    // Head
+    .head-title {
+        font-family: 'Arimo', sans-serif;
+        font-size: 3rem;
+        color: @white;
+        letter-spacing: 0.5rem;
+        text-align: center;
+    }
+    .head-text {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 2rem;
+        font-weight: 400;
+        color: @white;
+        text-align: center;
+    }
+    .head-content {
+        margin: auto;
+        width: 90%;
+        height: 40vh;
+        &-title {
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 4rem;
+        }
+        &-text {
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+        &-button {
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .down {
+        margin-top: 13vh;
+    }
+
+    // About Azart
+    #aboutAzart {
+        height: 125vh;
+        background-color: @pink;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .azart {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        &-content {
+            margin: auto;
+            width: 80%; 
+            height: 45vh;
+            &-title {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 15vh;
+            }
+            &-text {
+                width: 100%;
+                height: 40vh;
+                text-align: center;
+            }
+            &-btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 10vh;
+            }
+        }
+    }
+    .hand {
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        &-img {
+            width: 70%;
+            height: 40vh;
+            display: flex;
+            align-items: flex-end;
+        }
+    }
+
+    // About Curse 
+
+    #aboutCourse {
+        height: 110vh;
+        background-color: @light;
+        flex-direction: column;
+    } 
+
+    .course {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        &-content {
+            width: 85%;
+            height: 60vh;
+            margin: auto;
+            &-title {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 15vh;
+                margin-bottom: 3rem;
+            }
+            &-text {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                width: 100%;
+                height: 30vh;
+                margin-bottom: 3rem;
+            }
+            &-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 15vh;  
+            }
+        }
+    }
+    .photo {
+        width: 100%;
+        height: 110vh;
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        right: 0;
+        &-img {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            width: 100%;
+            height: 85%;
+        }
+    }
+    
 }
-// @media screen and (min-width: 768px) {
-//     .head-title {
-//         font-family: 'Arimo', sans-serif;
-//         font-size: 3.5rem;
-//         color: @white;
-//         letter-spacing: 0.5rem;
-//     }
-//     .head-text {
-//         font-family: 'Open Sans', sans-serif;
-//         font-size: 2rem;
-//         font-weight: 400;
-//         color: @white;
-//     }
-//     #aboutAzart {
-//         height: 100vh;
-//         background-color: @pink;
-//         flex-direction: column-reverse;
-//     }
-//     .hand {
-//         width: 100%;
-//         height: 60vh;
-//         display: flex;
-//         justify-content: center;
-//         align-items: flex-end;
-//         &-img {
-//             width: 42%;
-//             height: 45vh;
-//             display: flex;
-//             align-items: flex-end;
-//         }
-//     }
-//     .azart {
-//         width: 100%;
-//         height: 60vh;
-//         display: flex;
-//         align-items: center;
-//         &-content {
-//             width: 50%; 
-//             height: 45vh;
-//             margin: auto;
-//             &-title {
-//                 display: flex;
-//                 justify-content: center;
-//                 align-items: center;
-//                 width: 100%;
-//                 height: 10vh;
-//             }
-//             &-text {
-//                 width: 100%;
-//                 height: 25vh;
-//             }
-//             &-btn {
-//                 display: flex;
-//                 justify-content: center;
-//                 align-items: center;
-//                 width: 100%;
-//                 height: 10vh;
-//             }
-//         }
-//     }
+// @media (max-width: 320.98px) {
+
 // }
+
